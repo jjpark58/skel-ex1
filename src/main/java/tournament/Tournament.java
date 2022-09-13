@@ -10,6 +10,7 @@ public class Tournament {
       */
     public static int[] rankPlayers(int[][] scorecard, int sets, int games) {
         int[] playerRankings;
+        
         int[][] tempcard = scorecard;
         int[] tempscores;
         int numPlayer = tempcard.length;
