@@ -10,7 +10,7 @@ public class Tournament {
       */
     public static int[] rankPlayers(int[][] scorecard, int sets, int games) {
         int[] playerRankings;
-        
+        //commit success?
         int[][] tempcard = scorecard;
         int[] tempscores;
         int numPlayer = tempcard.length;
