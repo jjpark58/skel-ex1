@@ -10,8 +10,6 @@ public class Tournament {
       */
     public static int[] rankPlayers(int[][] scorecard, int sets, int games) {
         int[] playerRankings;
-        // TODO: Your implementation goes here
-        //List<Integer> finalSetScore = new ArrayList<>();
         
         int[][] tempcard = scorecard;
         int[] tempscores;
